@@ -24,3 +24,10 @@ div {
   padding: 0vw 0vh;
   margin: 0vw 0vh;
 }
+
+p{
+  display:none;
+}
+input[type="checkbox"]:checked + p{
+  display:block;
+}
